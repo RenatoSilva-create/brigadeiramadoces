@@ -27,6 +27,10 @@ def produtos():
 def usuarios(nome_usuario):
     return nome_usuario
 
+@app.route("/menu")
+def menu():
+    return render_template("cardapio.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
      app.run(debug=True)
