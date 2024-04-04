@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #b4fff4; /* Azul */
+            color: #8oooff; /* Roxo para texto */
+        }
+
+        table {
+            border-collarse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        trinth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            width: 50vw;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>AQUI ESTAO OS PRODUTOS DISPONIVEIS</h1>
+    <p>Temos doces para voce montar uma festa na sua casa, e tambem para voce saborear em casa apos o jantar!</p>
+    <div id="container">
+        <table>
+            <caption>Cardápio</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sobremesa com Uva</td>
+                    <td>Pote de chocolate e chocolate branco com uvas</td>
+                    <td>R$ 5,00</td>
+                </tr>
+                <tr>
+                    <td>Brigadeiro de Morango</td>
+                    <td>Brigadeiro sabor Morango</td>
+                    <td>R$ 1,00</td>
+                </tr>
+
+                <tr>
+                    <td>Beijinho</td>
+                    <td>Doce de festa</td>
+                    <td>R$ 1,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
