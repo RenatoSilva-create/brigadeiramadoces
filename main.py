@@ -27,7 +27,7 @@ def produtos():
 def usuarios(nome_usuario):
     return nome_usuario
 
-@app.route("/menu")
+@app.route("/cardapio")
 def menu():
     return render_template("cardapio.html")
 
